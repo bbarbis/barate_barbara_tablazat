@@ -1,0 +1,25 @@
+table{
+    width: 100%;
+    /* cellaszegélyek közti rés eltüntetése */
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+}
+th{
+    font-variant: small-caps;
+    background-color: rgb(16, 33, 47);
+    color: aliceblue;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(209, 207, 207);
+
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(179, 171, 171);
+
+}
+.osszevont{
+    background-color: rgb(98, 143, 155);
+    text-align: center;
+}

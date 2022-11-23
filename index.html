@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Táblázatok">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Baraté Barbara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baraté Barbara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Táblázatok</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Kezdő táblázat</a></li>
+            <li><a href="tablazat2.html"></a>Táblázat2</li>
+            <li><a href="tablazat3.html"></a>Táblázat3</li>
+        </ul>
+    </nav>
+    <article>
+        <section class="pelda">
+            <p>A táblázat funkciója az adatok rendszerezésére</p>
+            <table>
+                <caption>Táblázat címe. Az első sor </caption>
+                <!-- Ez egy sor-->
+                <thead>
+                <tr>
+                    <th>Cella1</th>
+                    <th>Cella2</th>
+                    <th>Cella3</th>
+                    <th>Cella4</th>
+                    <th>Cella5</th>
+                </tr>
+            </thead>
+                <!-- Ez az első sor vége -->
+                <tbody>
+                <tr>
+                    <td>sor1.cella1</td>
+                    <td>sor1.cella2</td>
+                    <td>sor1.cella3</td>
+                    <td>sor1.cella4</td>
+                    <td>sor1.cella5</td>
+                </tr>
+                <tr>
+                    <td>sor2.cella1</td>
+                    <td rowspan="2"class="osszevont">sor2.cella2 sor3.cella2</td></td>
+                    <td>sor2.cella3</td>
+                    <td>sor2.cella4</td>
+                    <td>sor2.cella5</td>
+                </tr>
+                <tr>
+                    <td>sor3.cella1</td>
+                    
+                    <td>sor3.cella3</td>
+                    <td>sor3.cella4</td>
+                    <td>sor3.cella5</td>
+                </tr>
+                <tr>
+                    <td>sor4.cella1</td>
+                    <td>sor4.cella2</td>
+                    <td>sor4.cella3</td>
+                    <td colspan="2" class="osszevont">sor4.cella4</td>
+                        sor4.cella5</td>
+                </tr>
+                <tr>
+                    <td>sor5.cella1</td>
+                    <td>sor5.cella2</td>
+                    <td>sor5.cella3</td>
+                    <td>sor5.cella4</td>
+                    <td>sor5.cella5</td>
+                </tr>
+                <tr>
+                    <td>sor6.cella1</td>
+                    <td>sor6.cella2</td>
+                    <td>sor6.cella3</td>
+                    <td>sor6.cella4</td>
+                    <td>sor6.cella5</td>
+                </tr>
+            </tbody>
+            </table>
+        </section>
+    </article>
+    <footer></footer>
+</body>
+</html>
